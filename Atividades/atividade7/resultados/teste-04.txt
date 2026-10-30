@@ -1,0 +1,27 @@
+==========================================================================
+ATIVIDADE 07 - ALGORITMO DO BANQUEIRO
+DUPLA: Camilla Peixoto e Anderson Leite
+TESTE 04 - Requisição de P4 em estado inseguro: rollback
+==========================================================================
+Recursos disponíveis antes do pedido: [3, 3, 2]
+
+######################################################################
+SOLICITAÇÃO DE RECURSOS PELO PROCESSO P4: [3, 3, 0]
+######################################################################
+⚠️ TENTATIVA PROVISÓRIA: Recursos disponíveis no momento. Testando alocação...
+
+[VERIFICAÇÃO DE ESTADO SEGURO]
+Vetor de Trabalho Inicial (Work/Disponível): [0, 0, 2]
+
+❌ ERRO: Nenhum processo pendente pode ser satisfeito com os recursos disponíveis.
+   O SISTEMA ENCONTRA-SE EM UM ESTADO INSEGURO!
+
+❌ REQUISIÇÃO NEGADA A P4!
+   A alocação levaria a um ESTADO INSEGURO (risco de deadlock). Efetuando rollback...
+   Estado original restaurado. O processo deve aguardar.
+Recursos disponíveis após o rollback: [3, 3, 2]
+RESULTADO DO TESTE 04: APROVADO - Pedido negado; estado original restaurado.
+
+==========================================================================
+EXECUÇÃO CONCLUÍDA - DUPLA: Camilla Peixoto e Anderson Leite
+==========================================================================

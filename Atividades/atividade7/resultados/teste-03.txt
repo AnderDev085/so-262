@@ -1,0 +1,20 @@
+==========================================================================
+ATIVIDADE 07 - ALGORITMO DO BANQUEIRO
+DUPLA: Camilla Peixoto e Anderson Leite
+TESTE 03 - Requisição de P4 após P1: recursos indisponíveis
+==========================================================================
+PREPARAÇÃO: P1 recebeu [1, 0, 2], conforme o teste anterior.
+Recursos disponíveis antes do pedido de P4: [2, 3, 0]
+
+######################################################################
+SOLICITAÇÃO DE RECURSOS PELO PROCESSO P4: [3, 3, 0]
+######################################################################
+⏳ PROCESSO BLOQUEADO: Recursos insuficientes disponíveis no momento.
+   Solicitado: 3 > Disponível 2 para o recurso R0
+   P4 deve aguardar a liberação de recursos por outros processos.
+Recursos disponíveis após o pedido de P4: [2, 3, 0]
+RESULTADO DO TESTE 03: APROVADO - P4 aguarda por falta do recurso R0.
+
+==========================================================================
+EXECUÇÃO CONCLUÍDA - DUPLA: Camilla Peixoto e Anderson Leite
+==========================================================================

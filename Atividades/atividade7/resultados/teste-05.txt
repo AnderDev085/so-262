@@ -1,0 +1,17 @@
+==========================================================================
+ATIVIDADE 07 - ALGORITMO DO BANQUEIRO
+DUPLA: Camilla Peixoto e Anderson Leite
+TESTE 05 - Requisição acima da necessidade máxima de P1
+==========================================================================
+Necessidade inicial de P1: [1, 2, 2]
+
+######################################################################
+SOLICITAÇÃO DE RECURSOS PELO PROCESSO P1: [2, 0, 0]
+######################################################################
+❌ REQUISIÇÃO NEGADA: P1 solicitou mais do que sua necessidade máxima declarada.
+   Solicitado: 2 > Necessidade 1 para o recurso R0
+RESULTADO DO TESTE 05: APROVADO - Pedido acima de Need negado.
+
+==========================================================================
+EXECUÇÃO CONCLUÍDA - DUPLA: Camilla Peixoto e Anderson Leite
+==========================================================================

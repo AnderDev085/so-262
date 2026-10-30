@@ -1,0 +1,10 @@
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos temporários do macOS
+.DS_Store
+
+# Configurações locais de editores
+.vscode/
+.idea/
